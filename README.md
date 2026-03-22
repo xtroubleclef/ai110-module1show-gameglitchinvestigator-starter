@@ -25,14 +25,15 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- [ ] **Describe the game's purpose:** A number guessing game where the player guesses a "secret number" while maximizing their score. Developers learn how to separate game logic from UI, verify fixes with pytest, and collaborate with AI tools effectively.
+      
+   - Actually a buggy application in Streamlit that serves as a code review exercise. The project demonstrates how *test-driven development* and careful refactoring can transform unmaintainable code into a working, testable system. 
+- [ ] **Detail which bugs you found:** Hints inverted, incorrect conditional logic (as logic/UI mixing), type mismatch on even attempts
+- [ ] **Explain what fixes you applied:** Comparison logic corrections, type conversions removed, refactored to logic_utils.py
 
 ## 📸 Demo
 
-- [ ] [Insert a screenshot of your fixed, winning game here]
+![Demo Screenshot](demo_screenshot.png)
+<!-- ## 🚀 Stretch Features
 
-## 🚀 Stretch Features
-
-- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here]
+- [ ] [If you choose to complete Challenge 4, insert a screenshot of your Enhanced Game UI here] -->
